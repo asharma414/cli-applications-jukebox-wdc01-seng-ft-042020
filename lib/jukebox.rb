@@ -28,11 +28,10 @@ end
 
 def play(songs)
   puts "Please enter a song name or number:"
-  input = "text".to_i
-  binding.pry
-  if songs[input.to_i-1] != nil
-    puts songs[input.to_i-1]
-  elsif songs.include? input
+  input = gets.strip
+  if songs.include? input
     puts input
+  elsif songs[input.to_i-1] != NIL
+    puts songs[input.to_i-1]
   end
 end
