@@ -33,5 +33,7 @@ def play(songs)
     puts input
   elsif songs[input.to_i-1] != NIL
     puts songs[input.to_i-1]
+  else
+    puts 
   end
 end
