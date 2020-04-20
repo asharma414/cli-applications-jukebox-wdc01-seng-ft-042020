@@ -47,7 +47,7 @@ def run
   input = gets.strip
   case input
   when 'play'
-    play
+    play(songs)
   when 'exit'
     exit_jukebox
     exit
