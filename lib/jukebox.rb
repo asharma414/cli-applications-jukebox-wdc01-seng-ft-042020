@@ -32,7 +32,6 @@ def play(songs)
   if songs.include? input
     puts input
   elsif input != 0 && songs[input.to_i-1]
-    binding.pry
     puts songs[input.to_i-1]
   else 
     puts "Invalid input, please try again"
