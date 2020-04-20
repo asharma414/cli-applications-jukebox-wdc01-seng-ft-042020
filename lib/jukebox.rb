@@ -49,4 +49,10 @@ def run
   when 'play'
     play
   when 'exit'
+    exit_jukebox
+    exit
+  when 'list'
+    list(songs)
+  when 'help'
+    help
     
