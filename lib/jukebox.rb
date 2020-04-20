@@ -33,7 +33,7 @@ def play(songs)
     puts input
   elsif songs[input.to_i-1] != NIL
     puts songs[input.to_i-1]
-  else "Invalid input, please try again"
-    puts 
+  else 
+    puts "Invalid input, please try again"
   end
 end
