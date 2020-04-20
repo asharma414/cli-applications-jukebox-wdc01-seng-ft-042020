@@ -31,7 +31,7 @@ def play(songs)
   input = gets.strip
   if songs.include? input
     puts input
-  elsif songs[input.to_i-1] != NIL
+  elsif songs[input.to_i-1]
     puts songs[input.to_i-1]
   else 
     puts "Invalid input, please try again"
